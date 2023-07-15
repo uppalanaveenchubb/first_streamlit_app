@@ -1,7 +1,7 @@
 Import stremlit
 streamlit.title('My Parents New Healthy dite')
-Breakfast Menu
+streamlit.header('Breakfast Menu')
 
-Omega 3 Blueberry Oatmeal
-Kale,Spinach and Rocket Smooethie
-Hard-Boiled Free-Range Egg
+streamlit.text('Omega 3 Blueberry Oatmeal')
+streamlit.text('Kale,Spinach and Rocket Smooethie')
+streamlit.text('Hard-Boiled Free-Range Egg')
