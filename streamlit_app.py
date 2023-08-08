@@ -43,8 +43,7 @@ try:
         back_from_function= get_fruityvice_data(fruit_choice)
     
     
-except URLerror as e:
-  streamlit.error()
+
 
 
 #streamlit.stop()
@@ -74,3 +73,6 @@ if streamlit.button('Add a Fruit to the List'):
     back_from_function = insert_row_snowflake(add_my_fruit)
     my_cnx.close()
 my_cur.execute ("insert into FRUIT_LOAD_LIST values ('from streamlit')")
+
+except URLerror as e:
+  streamlit.error()
